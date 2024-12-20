@@ -1,0 +1,63 @@
+
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+*{
+    text-align: center;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;;
+    overflow-x: hidden;
+    height: 100%;
+   
+}
+
+.background-video{
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+video{
+    object-fit: cover;
+    width: 200%;
+    height: 100%;
+    object-position: bottom;
+}
+
+.content{
+    z-index: 1;
+}
+
+.heading{
+    color: rgb(247, 247, 248);
+    text-align: center;
+    padding-top: 80px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    
+}
+.description{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+button{
+        padding: 10px 15px;
+        background-color: rgb(235, 245, 237);
+        color: rgb(167, 90, 90);
+        border: none;
+        font-size: 20px;
+        margin-left: 5%;
+    }
+button:hover{
+    color: rgb(239, 208, 152);
+    text-decoration: underline;
+}
